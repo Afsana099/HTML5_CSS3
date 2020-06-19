@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+	background-image: url("free.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+header h2 {
+	text-align: center;
+	text-transform: uppercase;
+	padding: 20px;
+	font-size: 30px;
+	letter-spacing: 5px;
+	word-spacing: 10px;
+	color: darkmagenta;
+	text-shadow: 1px 2px bisque;
+}
+
+.menu {
+    width: auto;
+    text-align: center;
+    background: ghostwhite;
+  }
+  .menu ul {
+    list-style: none;
+    display: inline-flex;
+}
+.menu ul li{
+    text-transform: capitalize;
+    width: 170px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.menu ul li a{
+    text-decoration: none;
+    display: inline-block; 
+    color: darkblue;
+    letter-spacing: 2px;
+}
+.menu ul li:hover{
+    background: lightsalmon;
+    border-radius:30px;
+    transition: 2s;
+}
+.menu ul li:hover>a{
+    color: teal;
+}
+nav {
+    float: left;
+    padding: 20px;
+    width: 200px;
+    background: bisque;
+    text-align: center;
+    letter-spacing: 2px;
+    height: 685px;
+    padding-top: 65px;
+  }
+  nav ul {
+    list-style: none;
+  }
+  nav li {
+    line-height: 40px;
+    border-bottom: dotted;
+    border-bottom-width: 1px;
+  }
+  nav ul li a {
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  nav ul li a:hover {
+    border: 1px solid black;
+    padding: 6px 15px;
+    border-radius: 20px;
+    background: aquamarine;
+    color: #ec0d34;
+    box-shadow: 1px 2px rebeccapurple;
+  }
+  .middle {
+    overflow: hidden;
+  }
+  article {
+    width: 800px;
+    background: skyblue;
+    float: inline-start;
+    text-align: center;
+    height: 770px;
+  }
+  article p{
+    text-align: justify;
+    padding: 30px;
+    text-transform: capitalize;
+    word-spacing: 3px;
+    line-height: 22px;
+    color: brown;
+  }
+  article h2{
+    padding: 30px;
+    text-align: center;
+    text-shadow: 2px 1px yellowgreen;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+
+    color: hsla;
+    font-size: 30px;
+    color: #072786;
+  }
+.form {
+	float: right;
+	width: 269px;
+	background: bisque;
+	padding: 20px;
+	height: 730px;
+}
+label{
+  text-transform: capitalize;
+  font-size: 18px;
+  margin-right: 20px;
+}
+table {
+  padding-top: 100px;
+}
+tr{
+  line-height: 40px;
+}
+td {
+	padding: 6px 60px;
+}
+.submit {
+  text-align: center;
+}
+.submit input{
+    border-radius:20px;
+    padding: 7px;
+    width: 70px;
+    background: green;
+    color:whitesmoke;
+  
+}
+input {
+  box-shadow: 1px 1px 2px 2px burlywood;
+  padding: 5px;
+}
+img {
+	width: 200px;
+	float: inline-end;
+	margin: 20px;
+	height: 150px;
+	border: 1px solid cornflowerblue;
+  transition: .5s;
+	box-shadow: 5px 5px whitesmoke;
+}
+img:hover{
+  transform: scale(1.1);
+  
+}
+footer {
+	padding: 20px;
+	background: aqua;
+	line-height: 50px;
+}
+footer h4 {
+	text-align: end;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	color: darkmagenta;
+	font-size: 20px;
+}

@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+header {
+	background: cornflowerblue;
+	text-align: center;
+	padding: 20px;
+	text-transform: capitalize;
+}
+nav {
+	float: right;
+	width: 371px;
+	text-align: center;
+	line-height: 40px;
+	padding: 20px;
+	background: bisque;
+	height: 200px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li a {
+	text-decoration: none;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+}
+article {
+	float: left;
+	width: 915px;
+	background: whitesmoke;
+	height: 200px;
+	padding: 20px;
+}
+article p {
+	text-align: justify;
+	text-transform: capitalize;
+	line-height: 25px;
+	padding: 20px;
+	color: darkblue;
+}
+article h2 {
+	text-align: ;
+	text-transform: capitalize;
+	margin: 20px;
+	color: currentColor;
+}
+footer {
+	width: auto;
+	background: aquamarine;
+	padding: 20px;
+	text-align: right;
+	text-transform: capitalize;
+	line-height: 40px;
+	margin: 0 auto;
+}
